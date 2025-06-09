@@ -1,12 +1,10 @@
 const express = require('express');
 const app = express();
-
 const itemsRouter = require('./routes/items');
 
 const PORT = 3000;
 
 app.use(express.json()); // Middleware to parse JSON
-
 app.use('/items', itemsRouter);
 
 // Home route

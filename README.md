@@ -1,5 +1,12 @@
 # Express.js CRUD API
 
+## Setup
+
+```bash
+npm install
+node index.js
+
+
 ## Setup Instructions
 
 1. Clone the repository
